@@ -49,6 +49,7 @@ curl --location \
 --form 'appFile=@"/path/to/apk"'
 ```
 * On running the command, an `app_url` will be generated as shown below. This URL will be used later in the test capabilities for the tests we will be running on.
+
 ![alt text](https://github.com/likith-lt/kotlin-mobile-sample/blob/main/images/app_url.png?raw=true)
 
 ## Run Your First Test
