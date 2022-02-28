@@ -44,9 +44,13 @@ ACCESSKEY : "123456abcdef"
 String to be encoded : "user:123456abcdef"
 Encoded string : "dXNlcjoxMjM0NTZhYmNkZWY="
 ```
-* We will be running our test script on LambdaTest Demo App. The apk of the app `proverbialrk.apk` can be found in the cloned project directory. To generate the app link, you need to run a command of the below format in the terminal and pass the value of `Encoded_string` and the `path of the apk` in the above command:
+* We will be running our test script on LambdaTest Demo App. The apk of the app `proverbialrk.apk` can be found in the cloned project directory. To generate the app link, you need to run a command of the below format in the terminal and pass the value of `Encoded_string` and the `path of the apk`:
 ```bash
-curl --location --request POST 'https://manual-api.lambdatest.com/app/upload/realDevice' --header 'Authorization: Basic <Encoded_string>' --form 'name="ProVerbial"' --form 'appFile=@"/path/to/apk"'
+curl --location \
+--request POST 'https://manual-api.lambdatest.com/app/upload/realDevice' \
+--header 'Authorization: Basic <Encoded_string>' \
+--form 'name="ProVerbial"' \
+--form 'appFile=@"/path/to/apk"'
 ```
 * On running the command, an `app_url` will be generated as shown below. This URL will be used later in the test capabilities for the tests we will be running on.
 
