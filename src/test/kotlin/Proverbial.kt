@@ -8,8 +8,8 @@ import java.net.URL
 
 //var caps: DesiredCapabilities? = ProjectCapabilities.AndroidBaseCapabilities()
 
-var userName = System.getenv("LT_USERNAME");
-var accessKey = System.getenv("LT_ACCESS_KEY");
+var userName = "YOUR_USERNAME"
+var accessKey = "YOUR_ACCESS_KEY"
 
 @Throws(MalformedURLException::class, InterruptedException::class)
 fun main(args: Array<String>) {

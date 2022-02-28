@@ -22,6 +22,7 @@ Before you can start performing automation testing on LambdaTest platform, you w
 
 ### Setting up Your Authentication
 Make sure you have your LambdaTest credentials with you to run test automation scripts on LambdaTest Selenium Grid. You can obtain these credentials from the [LambdaTest App Automation Dashboard](https://appautomation.lambdatest.com/build).
+
 **Step 1:** Set LambdaTest `Username` and `Access Key` in environment variables.
   * For **Linux/macOS**:
   ```bash
