@@ -49,7 +49,7 @@ curl --location \
 --form 'appFile=@"/path/to/apk"'
 ```
 * On running the command, an `app_url` will be generated as shown below. This URL will be used later in the test capabilities for the tests we will be running on.
-<img loading="lazy" src={require('images/app_url.png').default} alt="cmd" width="768" height="373" className="doc_img"/>
+![alt text](https://github.com/likith-lt/kotlin-mobile-sample/blob/main/images/app_url.png?raw=true)
 
 ## Run Your First Test
 ***
@@ -166,5 +166,6 @@ In `src/main/ProjectCapabilities.kt`, you need to update your test capabilities.
 
 ### Executing the Test
 In the IntelliJ Idea, you need to navigate to `src/test/kotlin/Proverbial.kt` and run that file to execute the tests on the LambdaTest platform.
+![alt text](https://github.com/likith-lt/kotlin-mobile-sample/blob/main/images/run.png?raw=true)
 
 Your test results would be displayed on the test console (or command-line interface if you are using terminal/cmd) and on [LambdaTest automation dashboard](https://accounts.lambdatest.com/login). LambdaTest Automation Dashboard will help you view all your text logs, screenshots and video recording for your entire automation tests.
