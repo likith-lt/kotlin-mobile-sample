@@ -40,7 +40,7 @@ ACCESSKEY : "123456abcdef"
 String to be encoded : "user:123456abcdef"
 Encoded string : "dXNlcjoxMjM0NTZhYmNkZWY="
 ```
-* We will be running our test script on LambdaTest Demo App. The apk of the app `proverbialrk.apk` can be found in the cloned project directory. To generate the app link, you need to run a command of the below format in the terminal and pass the value of `Encoded_string` and also the `path of the apk`:
+* We will be running our test script on LambdaTest Demo App. The apk of the app `proverbialrk.apk` can be downloaded from [here](https://prod-mobile-artefacts.lambdatest.com/assets/docs/proverbial_android.apk). To generate the app link, you need to run a command of the below format in the terminal and pass the value of `Encoded_string` and also the `path of the apk` which is downloaded to your system :
 ```bash
 curl --location \
 --request POST 'https://manual-api.lambdatest.com/app/upload/realDevice' \
